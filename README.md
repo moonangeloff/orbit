@@ -4,9 +4,9 @@ Windows messenger with personal AI companions. Development builds; clean Windows
 
 ## Download
 
-[Orbit 0.1.8 for Windows x64](https://github.com/moonangeloff/orbit/releases/download/v0.1.8/Orbit_0.1.8_x64-setup.exe)
+[Orbit 0.1.9 for Windows x64](https://github.com/moonangeloff/orbit/releases/download/v0.1.9/Orbit_0.1.9_x64-setup.exe)
 
-Clients 0.1.3 or later receive 0.1.8 inside Orbit. Install the current package once when upgrading from an older client. The release package is verified by the native updater before installation. Updates are installed when the user chooses to restart.
+Clients 0.1.3 or later receive 0.1.9 inside Orbit. Install the current package once when upgrading from an older client. The release package is verified by the native updater before installation. Updates are installed when the user chooses to restart.
 
 This repository hosts release packages and update metadata. GitHub commits are not application updates: a new signed release package is required.
 
@@ -16,8 +16,14 @@ The installer includes an unchanged GPLv3 Gyan FFmpeg 9.0.1 binary. The release 
 
 ## Music services
 
-Orbit 0.1.8 stores public music links and embeds the official Spotify, SoundCloud and Yandex Music players. Service controls, branding, account and regional restrictions remain in place. Orbit does not download service audio or sell access to it. An official embed is not a general content license; a future paid or advertising business model requires a separate provider-terms review.
+Orbit 0.1.9 stores public music links and embeds the official Spotify, SoundCloud and Yandex Music players. Service controls, branding, account and regional restrictions remain in place. Orbit does not download service audio or sell access to it. An official embed is not a general content license; a future paid or advertising business model requires a separate provider-terms review.
 
 ## Local audio downloads
 
-Orbit 0.1.8 can save a directly downloadable public HTTPS MP3/WAV/OGG/FLAC file (up to 64 MiB) into the user's local library on their PC. Download only content you are permitted to save. Playlist URLs are not audio files; Orbit does not export encrypted subscription music from Yandex or Spotify. Local audio uses Orbit volume/seeking controls and is not automatically uploaded to the server.
+Orbit 0.1.9 can save a directly downloadable public HTTPS MP3/WAV/OGG/FLAC file (up to 64 MiB) into the user's local library on their PC. Download only content you are permitted to save. Playlist URLs are not audio files; Orbit does not export encrypted subscription music from Yandex or Spotify. Local audio uses Orbit volume/seeking controls and is not automatically uploaded to the server.
+
+## Free music catalogue
+
+Orbit 0.1.9 searches Wikimedia Commons audio with explicit CC BY, CC BY-SA or CC0 licences. Play opens the original recording in Orbit, with volume and seeking controls. Author credits, licence and source are available for every recording. Classical, instrumental and independent recordings are included; a mainstream commercial catalogue is not promised.
+
+Permitted recordings are downloaded once to the shared server library and temporarily stored on the user's PC (256 MiB, seven days). Repeated playback reuses existing copies. Imported personal audio files remain separate. See the release's MUSIC_CATALOG.md for storage limits, licence handling and tested acceptance.
