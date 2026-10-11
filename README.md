@@ -4,9 +4,9 @@ Windows messenger with personal AI companions. Development builds; clean Windows
 
 ## Download
 
-[Orbit 0.1.3 for Windows x64](https://github.com/moonangeloff/orbit/releases/download/v0.1.3/Orbit_0.1.3_x64-setup.exe)
+[Orbit 0.1.4 for Windows x64](https://github.com/moonangeloff/orbit/releases/download/v0.1.4/Orbit_0.1.4_x64-setup.exe)
 
-Install 0.1.3 once to enable future GitHub-based updates inside Orbit. The release package is verified by the native updater before installation. Updates are installed when the user chooses to restart.
+Clients 0.1.3 or later receive 0.1.4 inside Orbit. Install the current package once when upgrading from an older client. The release package is verified by the native updater before installation. Updates are installed when the user chooses to restart.
 
 This repository hosts release packages and update metadata. GitHub commits are not application updates: a new signed release package is required.
 
